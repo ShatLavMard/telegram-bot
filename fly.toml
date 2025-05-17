@@ -1,9 +1,9 @@
-app = "telegram-bot-gpdj3q"
+app = "telegram-bot-ympuiw"
 
 [build]
   image = "python:3.10"
 
-[env]
+[env] 
   PYTHONUNBUFFERED = "true"
 
 [[services]]
