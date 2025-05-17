@@ -1,0 +1,14 @@
+app = "telebot"
+
+[build]
+  image = "python:3.10"
+
+[env]
+  PYTHONUNBUFFERED = "true"
+
+[[services]]
+  internal_port = 8080
+  protocol = "tcp"
+
+  [[services.ports]]
+    port = 80
