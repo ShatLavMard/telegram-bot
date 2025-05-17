@@ -1,4 +1,4 @@
-app = "telegram-bot-ympuiw"
+app = "telegram-bot-hlhy-a"
 
 [build]
   image = "python:3.10"
